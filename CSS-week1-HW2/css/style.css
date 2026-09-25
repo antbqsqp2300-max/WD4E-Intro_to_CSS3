@@ -1,0 +1,107 @@
+/* ============================================
+   BÀI TẬP CSS WEEK 1 - STYLESHEET CHUNG
+   Dùng cho cả 3 trang: index, neighborhood, parks
+============================================ */
+
+/* 1. Style thẻ body - font-family + font-size */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Style thẻ header - background-color */
+header {
+  background-color: #e6f2ff;
+  padding: 15px;
+}
+
+/* 3. Style thẻ nav - background-color */
+nav {
+  background-color: #1a252f;
+  padding: 10px;
+}
+
+/* 4. Style thẻ main - background-color + font-size */
+main {
+  background-color: #f9f9f9;
+  font-size: 18px;
+  padding: 20px;
+}
+
+/* 5. Style thẻ footer - background-color */
+footer {
+  background-color: #d3d3d3;
+  padding: 15px;
+  text-align: center;
+}
+
+/* 6. Style thẻ li - display + width (BẮT BUỘC) */
+li {
+  display: inline-block;
+  width: 180px;
+}
+
+/* 7. Style thẻ h1 - text-align + font-family + color */
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #1a5490;
+}
+
+/* 8. Style thẻ p - line-height */
+p {
+  line-height: 1.8;
+}
+
+/* ============================================
+   PHONG CÁCH BỔ SUNG (TÙY CHỌN)
+============================================ */
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f1c40f;
+}
+
+a {
+  color: #0056b3;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* ============================================
+   FIX CONTRAST — Link đậm hơn để pass WAVE
+============================================ */
+
+/* Link chung — màu đậm hơn */
+a {
+  color: #003d82;
+}
+
+/* Link trong main và đoạn văn */
+main a,
+p a {
+  color: #003d82;
+}
+
+/* Link trong footer — nền xám nên cần đậm nhất */
+footer a {
+  color: #001f3f;
+}
+
+/* Hover state */
+a:hover,
+main a:hover,
+p a:hover,
+footer a:hover {
+  color: #001f3f;
+  text-decoration: underline;
+}
