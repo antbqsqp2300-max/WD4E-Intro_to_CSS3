@@ -77,3 +77,31 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* ============================================
+   FIX CONTRAST — Link đậm hơn để pass WAVE
+============================================ */
+
+/* Link chung — màu đậm hơn */
+a {
+  color: #003d82;
+}
+
+/* Link trong main và đoạn văn */
+main a,
+p a {
+  color: #003d82;
+}
+
+/* Link trong footer — nền xám nên cần đậm nhất */
+footer a {
+  color: #001f3f;
+}
+
+/* Hover state */
+a:hover,
+main a:hover,
+p a:hover,
+footer a:hover {
+  color: #001f3f;
+  text-decoration: underline;
+}
